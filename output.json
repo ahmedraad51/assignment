@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "date": "2026-09-01",
+      "ref": "INV1",
+      "lines": [
+        {
+          "account": "Accounts Receivable - Ali Trading",
+          "debit": 1480000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 1480000
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "ref": "INV2",
+      "lines": [
+        {
+          "account": "Accounts Receivable - Ali Trading",
+          "debit": 750000,
+          "credit": 0
+        },
+        {
+          "account": "Sales Revenue",
+          "debit": 0,
+          "credit": 750000
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "ref": "PAY1",
+      "lines": [
+        {
+          "account": "Cash - USD",
+          "debit": 1764000,
+          "credit": 0
+        },
+        {
+          "account": "Realized FX Loss",
+          "debit": 16000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable - Ali Trading",
+          "debit": 0,
+          "credit": 1780000
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "ref": "PAY2",
+      "lines": [
+        {
+          "account": "Cash - IQD",
+          "debit": 447000,
+          "credit": 0
+        },
+        {
+          "account": "Realized FX Loss",
+          "debit": 3000,
+          "credit": 0
+        },
+        {
+          "account": "Accounts Receivable - Ali Trading",
+          "debit": 0,
+          "credit": 450000
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "ref": "REV-PAY2",
+      "lines": [
+        {
+          "account": "Accounts Receivable - Ali Trading",
+          "debit": 450000,
+          "credit": 0
+        },
+        {
+          "account": "Cash - IQD",
+          "debit": 0,
+          "credit": 447000
+        },
+        {
+          "account": "Realized FX Loss",
+          "debit": 0,
+          "credit": 3000
+        }
+      ]
+    }
+  ],
+  "open_invoices": [
+    {
+      "id": "INV2",
+      "usd_open": 300,
+      "iqd_open": 450000
+    }
+  ],
+  "balances": [
+    {
+      "customer": "Ali Trading",
+      "iqd": 450000
+    }
+  ]
+}

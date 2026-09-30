@@ -1,0 +1,20 @@
+{
+  "rates": {
+    "2026-09-01": 1480,
+    "2026-09-10": 1500,
+    "2026-09-20": 1470,
+    "2026-09-25": 1490,
+    "2026-09-28": 1465
+  },
+  "invoices": [
+    {"id": "INV1", "date": "2026-09-01", "customer": "Ali Trading", "usd": 1000},
+    {"id": "INV2", "date": "2026-09-10", "customer": "Ali Trading", "usd": 500}
+  ],
+  "payments": [
+    {"id": "PAY1", "date": "2026-09-20", "customer": "Ali Trading", "currency": "USD", "amount": 1200},
+    {"id": "PAY2", "date": "2026-09-25", "customer": "Ali Trading", "currency": "IQD", "amount": 447000}
+  ],
+  "reversals": [
+    {"payment_id": "PAY2", "date": "2026-09-28"}
+  ]
+}
