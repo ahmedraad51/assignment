@@ -1,4 +1,5 @@
 I used claude to:
+**Note:** Due to limited time, I used AI to help with the writing, but everything stated below is fully represents me.
 
 **To understand the brief** because of that the task is mostly accounting, I asked claude to explain the task: what a receivable is, why exchange rates create FX gains and losses, and what a payment reversal is.
 **To write the code, tests and read me** claude wrote them. Then I ran the program, went through the output entry by entry, and kept asking about each line until I could explain it myself. For example, why the reversal uses the original amounts and not the 09-28 rate, and why the IQD payment is converted at the payment-day rate.
